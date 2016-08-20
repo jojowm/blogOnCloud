@@ -1,0 +1,25 @@
+{
+  "name": "resources",
+  "description": "resources used in my blog on cloud",
+  "main": "",
+  "keywords": [
+    "resources"
+  ],
+  "authors": [
+    "Chris"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "seajs": "^3.0.0",
+    "jquery": "^3.1.0"
+  }
+}
