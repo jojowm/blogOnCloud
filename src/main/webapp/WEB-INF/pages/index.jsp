@@ -9,6 +9,7 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Blog Home</title>
     <link rel="stylesheet" href="/resources/bower_components/bootstrap/dist/css/bootstrap.min.css">
 </head>
