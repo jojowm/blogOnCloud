@@ -12,6 +12,7 @@
         <!--spring version begin-->
         <spring.version>4.3.2.RELEASE</spring.version>
         <!--spring version end-->
+        <jstl.version>1.2</jstl.version>
     </properties>
 
     <dependencies>
@@ -32,6 +33,12 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
         </dependency>
 
         <dependency>
@@ -63,9 +70,9 @@
                 <artifactId>maven-jetty-plugin</artifactId>
                 <version>6.1.26</version>
                 <configuration>
-                    <webAppConfig>
-                        <contextPath>/</contextPath>
-                    </webAppConfig>
+                    <!--<webAppConfig>-->
+                        <!--<contextPath>/</contextPath>-->
+                    <!--</webAppConfig>-->
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <connectors>
                         <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
